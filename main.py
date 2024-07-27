@@ -3,7 +3,6 @@ import tkintermapview
 
 root = Tk()
 root.title('Codemy.com - Tkinter MapView')
-root.iconbitmap('c:/gui/codemy.ico')
 root.geometry("900x700")
 
 my_label = LabelFrame(root)
