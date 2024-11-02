@@ -16,10 +16,11 @@ body:
         - Other
     validations:
       required: true
-- type: textarea
-  id: additional
-  attributes:
-    label: Any additional context?
-    description: Links? References? Anything that will help us implement this would be appriciated! Thanks!
-  validations:
-    required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Any additional context?
+      description:
+        Links? References? Anything that will help us implement this would be appriciated! Thanks!
+    validations:
+      required: false
