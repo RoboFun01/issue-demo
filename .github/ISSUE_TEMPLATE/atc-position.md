@@ -1,11 +1,16 @@
----
 name: ATC Position
-about: Request a new or a change to an ATC Position
-title: "[PSTN]"
-labels: enhancement
-assignees: ""
----
+description: Request a new or a change to an ATC Position
+title: "[PSTN]: "
+labels: ["enhancement"]
+body:
 
+  - type: textarea
+    id: applicable-position
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is and what needs to be fixed.
+    validations:
+      required: true
 ## Applicable Postion
 
 Please provide the applicable position for this request. Example: FNAN_GND or GOOO_FSS
