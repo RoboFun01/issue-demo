@@ -2,7 +2,6 @@ name: vATIS Profile Update
 description: Request an update to a vATIS profile
 title: "[vATS]: "
 labels: ["enhancement"]
-
 body:
   - type: dropdown
     id: type
