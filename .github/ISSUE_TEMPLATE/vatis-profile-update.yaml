@@ -20,7 +20,6 @@ body:
   attributes:
     label: Any additional context?
     description:
-      Links? References? Anything that will help us implement this would be appriciated!
-      Thanks!
+      Links? References? Anything that will help us implement this would be appriciated! Thanks!
   validations:
     required: false
