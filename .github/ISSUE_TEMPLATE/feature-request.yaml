@@ -3,12 +3,12 @@ description: Suggest an Enhancement to this Sector File
 title: "[FEAT]: "
 labels: ["enhancement"]
 body:
-- type: markdown
-  attributes:
-    value: "# Feature Request form"
-- type: markdown
-  attributes:
-    value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
+  - type: markdown
+    attributes:
+      value: "# Feature Request form"
+  - type: markdown
+    attributes:
+      value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
   - type: textarea
     id: context
     attributes:

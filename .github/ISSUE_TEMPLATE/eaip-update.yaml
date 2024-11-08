@@ -3,12 +3,12 @@ description: Request an update to the eAIP
 title: "[eAIP]: "
 labels: ["enhancement"]
 body:
-- type: markdown
-  attributes:
-    value: "# eAIP Update Request form"
-- type: markdown
-  attributes:
-    value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
+  - type: markdown
+    attributes:
+      value: "# eAIP Update Request form"
+  - type: markdown
+    attributes:
+      value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
   - type: dropdown
     id: type-update
     attributes:
