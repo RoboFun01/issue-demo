@@ -13,8 +13,6 @@ body:
         - New or Update to an Airspace Page
         - New or Update to a Country Page
         - Other
-      validations:
-        required: true
   - type: textarea
     id: url-pages
     attributes:
