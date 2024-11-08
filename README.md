@@ -1,1 +1,1 @@
-# map-overlay
+# Demo for issue templates

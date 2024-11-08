@@ -17,10 +17,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: additional
+    id: additional-context
     attributes:
-      label: Any additional context?
-      description:
-        Links? References? Anything that will help us implement this would be appriciated! Thanks!
+      label: Additional Context (Optional)
+      description: Add any other context or screenshots about the feature request here.
     validations:
       required: false
