@@ -7,7 +7,7 @@ body:
     id: impact
     attributes:
       label: What features does this NOTAM impact?
-      multiple: true
+      multiple: false
       options:
         - New Position
         - Retire Position
@@ -30,8 +30,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: ATC Position Checklist
-      description: The following items have been completed
+      label: ATC Position Checklist (You do not have to fill this in.)
+      description: The following items have been completed by the Sector File Team.
       options:
         - label: Aeronav GNG
           required: false
