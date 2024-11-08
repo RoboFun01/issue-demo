@@ -31,8 +31,6 @@ body:
           required: false
         - label: vATIS
           required: false
-      validations:
-        required: true
   - type: checkboxes
     id: eaip-impact
     attributes:
@@ -49,8 +47,6 @@ body:
           required: false
         - label: AD Approach
           required: false
-      validations:
-        required: true
   - type: textarea
     id: screenshots
     attributes:
