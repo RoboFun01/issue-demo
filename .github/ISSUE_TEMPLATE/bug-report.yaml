@@ -9,7 +9,6 @@ body:
   - type: markdown
     attributes:
       value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
-- type: dropdown
   - type: textarea
     id: bug-description
     attributes:
