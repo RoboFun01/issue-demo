@@ -23,6 +23,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the changes you would like to perform.
+    validations:
+      required: true
+  - type: textarea
     id: additional-context
     attributes:
       label: Additional Context (Optional)

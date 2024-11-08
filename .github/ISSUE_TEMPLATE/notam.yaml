@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
-  - type: textarea
+  - type: input
     id: applicable-notam
     attributes:
       label: Applicable NOTAM
@@ -56,7 +56,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots
+      label: Screenshots (Optional)
       description: If possible, attach screenshots that demonstrate the need.
     validations:
       required: false

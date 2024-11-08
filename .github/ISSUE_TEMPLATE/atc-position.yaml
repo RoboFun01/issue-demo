@@ -10,7 +10,7 @@ body:
     attributes:
       value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
   - type: dropdown
-    id: version
+    id: impact
     attributes:
       label: What features does this NOTAM impact?
       description: Please select the appropriate option.

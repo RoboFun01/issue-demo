@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots
+      label: Screenshots (Optional)
       description: If possible, attach screenshots that demonstrate the need.
     validations:
       required: false
