@@ -13,7 +13,6 @@ body:
     id: impact
     attributes:
       label: What features does this NOTAM impact?
-      multiple: false
       options:
         - New Position
         - Retire Position
