@@ -11,8 +11,6 @@ body:
       options:
         - New Ground Layout
         - Update to an existing Ground Layout
-      validations:
-        required: true
   - type: textarea
     id: description
     attributes:
