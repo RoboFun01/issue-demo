@@ -3,6 +3,12 @@ description: Suggest a Ground Layout Enhancement to this Sector File
 title: "[GLYT]: "
 labels: ["enhancement"]
 body:
+- type: markdown
+  attributes:
+    value: "# Ground Layout Report form"
+- type: markdown
+  attributes:
+    value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
   - type: dropdown
     id: related
     attributes:
@@ -11,6 +17,8 @@ body:
       options:
         - New Ground Layout
         - Update to an existing Ground Layout
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:

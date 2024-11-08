@@ -3,6 +3,13 @@ description: Report a Bug with this Sector File
 title: "[BUG]: "
 labels: ["bug"]
 body:
+- type: markdown
+  attributes:
+    value: "# Bug Report form"
+- type: markdown
+  attributes:
+    value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
+- type: dropdown
   - type: textarea
     id: bug-description
     attributes:
@@ -15,9 +22,9 @@ body:
     attributes:
       label: To Reproduce
       description: Steps to reproduce the behavior
-      placeholder: 
-        1. Go to '...' /n
-        2. Click on '....' \n
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
         3. Scroll down to '....'
         4. See error
     validations:
