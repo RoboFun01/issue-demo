@@ -13,8 +13,6 @@ body:
         - Retire Position
         - New Frequency
         - Other
-      validations:
-        required: true
   - type: textarea
     id: applicable-position
     attributes:
@@ -47,6 +45,5 @@ body:
           required: false
         - label: SSA ATC Position Registry
           required: false
-      validations:
-        required: true
+
 
