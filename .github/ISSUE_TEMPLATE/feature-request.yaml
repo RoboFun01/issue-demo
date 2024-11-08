@@ -2,6 +2,7 @@ name: Feature Request
 description: Suggest an Enhancement to this Sector File
 title: "[FEAT]: "
 labels: ["enhancement"]
+body:
   - type: textarea
     id: context
     attributes:
