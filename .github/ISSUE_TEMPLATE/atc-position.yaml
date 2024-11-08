@@ -19,7 +19,7 @@ body:
     id: applicable-position
     attributes:
       label: Applicable Postion
-      description: Please provide the applicable position for this request. Example: FNAN_GND or GOOO_FSS
+      description: Please provide the applicable position for this request. Example, FNAN_GND or GOOO_FSS
     validations:
       required: true
   - type: textarea
