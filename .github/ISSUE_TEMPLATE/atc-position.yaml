@@ -33,7 +33,7 @@ body:
     id: terms
     attributes:
       label: ATC Position Checklist
-      description: The following items have been completed: 
+      description: The following items have been completed
       options:
         - label: Aeronav GNG
           required: false
