@@ -21,7 +21,7 @@ body:
         - Other
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: applicable-position
     attributes:
       label: Applicable Postion
