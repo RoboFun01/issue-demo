@@ -32,7 +32,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Describe the changes you would like to perform. Please also put sources here (So that it can be verified.)
+      description: Describe the changes you would like. Please also put sources here (So that it can be verified.)
     validations:
       required: true
   - type: textarea

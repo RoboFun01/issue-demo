@@ -29,6 +29,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the changes you would like. Please also put sources here (So that it can be verified.)
+    validations:
+      required: true
+  - type: textarea
     id: additional-context
     attributes:
       label: Additional Context (Optional)
