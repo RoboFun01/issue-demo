@@ -3,12 +3,12 @@ description: Request a new or a change to an ATC Position
 title: "[PSTN]: "
 labels: ["enhancement"]
 body:
-- type: markdown
-  attributes:
-    value: "# ATC Position Update Request form"
-- type: markdown
-  attributes:
-    value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
+  - type: markdown
+    attributes:
+      value: "# ATC Position Update Request form"
+  - type: markdown
+    attributes:
+      value: "Please make sure to check existing issues on this repo. Only open an issue here if they don't already exist there. Thanks!"
   - type: dropdown
     id: impact
     attributes:
